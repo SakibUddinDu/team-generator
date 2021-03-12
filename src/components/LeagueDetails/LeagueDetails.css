@@ -1,0 +1,53 @@
+.card {
+  margin: 20px;
+  padding: 10px;
+}
+.side img {
+  width: 24px;
+  height: 24px;
+  left: 164px;
+  top: 486px;
+}
+.side {
+  display: flex;
+}
+.side p {
+  margin-left: 10px;
+}
+.banner {
+  height: 100%;
+  width: 100%;
+}
+.card pic {
+  /* background-color: chartreuse; */
+  height: 100px;
+  width: 100px;
+}
+.media {
+  margin-top: 5%;
+  background-color: #7fffd4;
+  padding: 20px;
+}
+.icons {
+  display: flex;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.icon {
+  height: 65px;
+  width: 65px;
+}
+.backgroundImage {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(../../images/Photo/Rectangle\ 28.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+  z-index: 1;
+}
